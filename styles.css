@@ -150,8 +150,9 @@ button {
 
 #histories {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
+  flex-direction: row-reverse;
 }
 
 .card {
