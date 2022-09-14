@@ -62,12 +62,19 @@ body {
   display: none;
 }
 #result {
-  position: fixed;
-  top: 10%; 
+  /* position: fixed;
+  top: 11%;
   left: 10%;
-  transform: translate(-50%, -50%);
   height: 250px;
-  width: 400px;
+  width: 400px; */
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -249px;
+  transform: translate(-50%, -50%);
   background-color: #171717;
   border-radius: 15px;
   border: 2px solid #9dffad;
